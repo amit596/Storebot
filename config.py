@@ -42,7 +42,7 @@ FORCE_PIC = os.environ.get("FORCE_PIC", "https://envs.sh/emH.jpg")
 #--------------------------------------------
 SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "linkshortify.com")
 SHORTLINK_API = os.environ.get("SHORTLINK_API", "c8c51280ae7b73b07b278a6ec131c3fb9d1598c5")
-VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 60)) # Add time in seconds
+VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 3600)) # Add time in seconds
 TUT_VID = os.environ.get("TUT_VID","https://t.me/how_to_open_link_ak/18")
 
 #--------------------------------------------
